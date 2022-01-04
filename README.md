@@ -3,8 +3,8 @@ A light weight HTML canvas framework for advanced canvas drawing with JavaScript
 
 # Usage
 
-<code>
-  var canvasElement = document.getElementById("canvas");<br/>
+```
+  var canvasElement = document.getElementById("canvas");
   var tinyCanvas = TinyCanvas(canvasElement, canvasElement.innerWith, canvasElement.innnerHeight);
   tinyCanvas.setFillStyle("blue");
   tinyCanvas.setStrokeStyle("yellow");
@@ -16,4 +16,4 @@ A light weight HTML canvas framework for advanced canvas drawing with JavaScript
             .strock("blue");
   
   var tObject = new TinyCanvasObject(tinyCanvas).init();
-</code>
+```
