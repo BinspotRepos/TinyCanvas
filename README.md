@@ -5,7 +5,7 @@ A light weight HTML canvas framework for advanced canvas drawing with JavaScript
 
 ```
   var canvasElement = document.getElementById("canvas");
-  var tinyCanvas = TinyCanvas(canvasElement, canvasElement.innerWith, canvasElement.innnerHeight);
+  var tinyCanvas = new TinyCanvas(canvasElement, canvasElement.innerWith, canvasElement.innnerHeight);
   tinyCanvas.setFillStyle("blue");
   tinyCanvas.setStrokeStyle("yellow");
   tinyCanvas.setLineWidth(3);
